@@ -1,0 +1,11 @@
+modLoader="javafml" #mandatory
+loaderVersion="[31,)" #mandatory. 26 for 1.14.2, 27 for 1.14.3, 28 for 1.14.4. 29,30,31 for 1.15, 1.15.2/3
+
+[[mods]] #mandatory
+modId="eamod" #mandatory
+version="1.0.0" #mandatory
+displayName="Explosive Arrow" #mandatory
+credits="ani" #optional
+description='''
+A mod that adds an explosive arrow.
+'''
