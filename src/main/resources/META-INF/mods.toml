@@ -3,7 +3,7 @@ loaderVersion="[31,)" #mandatory. 26 for 1.14.2, 27 for 1.14.3, 28 for 1.14.4. 2
 
 [[mods]] #mandatory
 modId="eamod" #mandatory
-version="1.0.0" #mandatory
+version="1.0.2" #mandatory
 displayName="Explosive Arrow" #mandatory
 credits="ani" #optional
 description='''

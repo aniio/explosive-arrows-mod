@@ -1,14 +1,18 @@
-import net.minecraftforge.fml.common.Mod;
+package com.ani.explosivearrows;
 
-/**
- * The main class of the mod, this is the class that looks like a mod to forge.
- */
+import net.minecraft.tags.ItemTags;
+import net.minecraftforge.fml.common.Mod;
+import net.minecraftforge.fml.javafmlmod.FMLJavaModLoadingContext;
+
 @Mod(ExplosiveArrow.MOD_ID)
 public class ExplosiveArrow {
 
-    /**
-     * The modid of this mod, this has to match the modid in the mods.toml and has to be in the format defined in {@link net.minecraftforge.fml.loading.moddiscovery.ModInfo}
-     */
+
     public static final String MOD_ID = "eamod";
 
+    public ExplosiveArrow() {
+        //Register the ITEMS deferred register to the mod event bus.
+        ModItems.ITEMS.register(FMLJavaModLoadingContext.get().getModEventBus());
+
+    }
 }
